@@ -1,0 +1,42 @@
+{
+  "name": "ispace",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx nodemon index"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.15.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.0",
+    "method-override": "^3.0.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.2.4",
+    "nodemon": "^2.0.21",
+    "sequelize": "^6.31.1",
+    "uuidv4": "^6.2.13"
+  },
+  "description": "https://jolly-tanuki-c72a93.netlify.app/",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndLuna/I-Space.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndLuna/I-Space/issues"
+  },
+  "homepage": "https://github.com/AndLuna/I-Space#readme",
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}

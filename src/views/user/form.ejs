@@ -1,0 +1,44 @@
+<html>
+  <!-- <head> -->
+    <%- include('../partials/headUser') %>
+  <!-- </head> -->
+  <body class="body-form">
+
+
+    <%- include('../partials/header') %>
+
+    
+    <form
+    method="POST"
+    action="/users/create"
+    class="form-cad"
+    >
+    <% if (typeof errors !== 'undefined') { %>
+      <ul class="div-errors" style="color: red;">
+        <% for(let error in errors) { %>
+          <li> <%= errors[error].msg %> </li>
+        <% } %>
+      </ul>
+    <% } %>
+      <div class="column" style="margin-bottom: 5rem;">
+        <!-- <a class="go-back" href="/users/"><i class="fas fa-chevron-left"></i> Voltar</a> -->
+      
+        <div style="height: 18px"></div>
+        <div class="label">Nome</div>
+        <input type="text" name="name">
+        <div style="height: 18px"></div>
+        <div class="label">Email</div>
+        <input type="text" name="email">
+        <div style="height: 24px"></div>
+        <div class="label">Senha</div>
+        <input type="text" name="pwd">
+        <div class="label">Confirmação de senha</div>
+        <input type="text">
+        <button class="button bg-success" style="margin-top: 2rem;">
+          Cadastre-se
+        </button>
+      </div>
+    </form>
+    <%- include('../partials/footer') %>
+  </body>
+</html>

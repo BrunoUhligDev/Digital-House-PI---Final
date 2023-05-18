@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .products-wrapper{
+      margin: 130px 0px 130px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      
+    }
+
+    .mainCreate{
+      margin: 50px;
+      font-size: 20px;
+
+
+ 
+   }
+   .product-detail{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+.form01{
+  display: flex;
+  justify-content: center;       
+}
+.cardCreate{
+   margin: 10px;
+
+}
+.cardCreate label{
+  margin-right: 50px;
+  width: 40px;
+  margin-bottom: 8px;
+}
+.cardCreate input{
+  width: 450px;
+  margin-bottom:20px ;
+  height: 5vh;
+  border: 0.8px solid grey;
+  border-radius: 3px;
+}
+
+.createTitle{
+  font-size: 24px;
+  padding: 30px;
+  
+}
+.containertitle{
+  margin: 0 auto;
+}
+.form-input{
+  padding-left: 10px;
+}
+.formCenter{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  </style>
+</head>
+<body>
+  <body>
+    <!-- Header -->
+    <%- include('partials/header') %>
+    <!-- /Header -->
+
+<main class="mainCreate">
+
+
+      <div class="container products-wrapper">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="products-title">Você está editando: <i><%= productToEdit.name %></i></h2>
+          </div>
+        </div>
+        <div class="col-12 formCenter">
+          <form action="/product/<%= productToEdit.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+            <div class="row product-detail">
+              <div class="col-12 col-md-6 cardCreate">
+                <label for="name" class="form-label ">Nome:</label>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Informe o nome do produto"
+                  class="form-input"
+                  value="<%= productToEdit.name %>"
+                >
+              </div>
+              <div class="col-12 col-md-6 cardCreate">
+                <label for="price" class="form-label ">Preço:</label>
+                <input
+                  id="price"
+                  type="number"
+                  name="price"
+                  placeholder="Informe o preço do produto"
+                  class="form-input"
+                  value="<%= productToEdit.price %>"
+                >
+              </div>
+              <div class="col-12 col-md-6 cardCreate">
+                <label for="discount" class="form-label">Desconto:</label>
+                <input
+                  id="discount"
+                  type="number"
+                  name="discount"
+                  placeholder="Informe o desconto do produto"
+                  class="form-input"
+                  value="<%= productToEdit.discount %>"
+                >
+              </div>
+   
+              <div class="col-12 col-md-6 cardCreate">
+								<label for="image" class="form-label">Imagem:</label>
+								<input type="file" id="image" name="image" class="form-input">
+							</div>
+              <label for="type" class="form-label">Tipo:</label>
+              <select name="type" id="type" class="form-label">
+                <option value="iphone">iPhone</option>
+                <option value="mac">Mac</option>
+                <option value="ipad">iPad</option>
+                <option value="watch">Watch</option>
+              </select>
+              
+              <div class="col-12 cardCreate">
+                <button type="submit" class="buy-now-button">Salvar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- /todos los productos -->
+
+    </main>
+      <!-- footer -->
+      <%- include('partials/footer') %>
+      <!-- /footer -->
+  </body>
+</body>
+</html>

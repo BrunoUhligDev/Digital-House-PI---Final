@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+
+</head>
+<body>
+                        <!-- inicio header -->
+                        
+                                            <!-- fim header -->
+  
+    <main>
+   <div class="containner-login">
+
+    <div class="header-login"> 
+       <div class="left-header-logion">  
+          <img src="/images/LOGO.jpg" height="60px" alt="">
+        </div>
+        <div class="right-header-login">
+          <p>100% seguro</p>
+          <a href=""><iconify-icon icon="material-symbols:lock" width="20px" style="color:#fff ;"></iconify-icon></a>
+        </div>
+    </div>
+
+        <div class="text-login">
+            <div class="login">
+              <h1>Faça login</h1>
+            </div>
+           <div class="link-login"> 
+            <a href="users/create">Não sou cadastrado</a>
+           </div>
+        </div>
+
+        <% if (typeof errors !== 'undefined') { %>
+          <ul class="div-errors">
+            <% for(let error in errors) { %>
+              <li> <%= errors[error].msg %> </li>
+            <% } %>
+          </ul>
+        <% } %>
+  
+        <div class="inputs-form-login">
+          <form action="/users/login" method="POST" class="form-input-create-produto">
+            <span>e-mail</span>
+            <input type="email" name="email" id="input-email">
+            <span>senha</span>
+            <input type="password" name="pwd" id="input-senha">
+            <button type="submit" id="btn-login">Entrar</button>
+        </form>
+        </div>
+
+   </div>
+
+</main>
+
+
+
+
+   <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+   <style>
+    .inputs-form-login form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #input-email{
+      width: 20rem;
+    }
+
+    #input-senha{
+      width: 20rem;
+    }
+
+    #btn-login{
+      margin-top: 4rem;
+      width: 10rem;
+    }
+
+   </style>
+</body>
+</html>

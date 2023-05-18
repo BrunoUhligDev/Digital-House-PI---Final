@@ -1,0 +1,47 @@
+
+main { 
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 1500px;
+    width: 70%;
+    margin: 0 auto;
+ 
+}
+.grade-garantia{
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+
+}
+.card-garantia{
+    text-align: justify;
+    border: 1px solid #d6dbd2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.titulo-card{;
+text-align: center;
+}
+
+
+.titulo-beneficios{
+    text-align: center;
+}
+
+.titulo-cobertura{
+    text-align: center;
+}
+.card-cobertura{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+
+
+
+
+
+
+

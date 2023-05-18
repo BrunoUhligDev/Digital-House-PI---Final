@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
+    <!-- Google Fonts -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&amp;display=swap'>
+    <!-- Font Awesome CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/header.css">
+    <link rel="stylesheet" href="/stylesheets/responsividade.css">
+    <link rel="stylesheet" href="/stylesheets/theme.css">
+    <!-- <link rel="stylesheet" href="/stylesheets/header.css">  -->
+    <link rel="shortcut icon" href="/images/smartphone.png" type="image/x-icon">
+ 
+</head>
+<body>
+    <!-- HEADER IMPROVISADO -->
+    <header class="header ">
+      <div class="div-topo">
+        <div class="">
+          <a href="/">
+            <img src="/images/I-SPACE logo oficial.jpg" alt="" id="img-logo">
+
+          </a>
+          
+        </div>
+        <form class="form-header">
+          <div class="input-pesquisar">
+              <input class="" type="search" placeholder="Pesquise" aria-label="Search">
+              <button class="button-send" type="submit">
+                <p>Buscar</p>
+                </button>
+          </div>
+  
+      </form>
+      <div class="div-user">
+      <li class="">
+        <a class="" href="users/create">Cadastro</a>
+      </li>
+      <li class="">
+        <a class="" href="../login">Login</a>
+      </li>
+      </div>
+      </div>
+     
+      <nav class="div-navbar">
+              <ul class="ul-nav">
+                <li class="/">
+                  <a class="" href="/">Inicio</a>
+                </li>
+
+                  <li class="">
+                    <a class="" href="/productPage/iphone">Iphone</a>
+                  </li>
+                  <li class="">
+                    <a class="" href="/productPage/mac">Mac</a>
+                  </li>
+                  <li class="">
+                    <a class="" href="/productPage/ipad">Ipad</a>
+                  </li>
+                  
+                <li class="">
+                  <a class=""  href="/productPage/watch">Watch</a>
+                </li>
+                <!-- <li class="">
+                  <a class=""  href="/sobre">Sobre</a>
+                </li>
+                <li class="">
+                  <a class=""  href="/">Serviços</a>
+                </li> -->
+                <li class="">
+                  <a class=""  href="/estoque">Estoque</a>
+                </li>
+              </ul>  
+        </nav>
+     
+      <style>
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#img-logo{
+    width: 8rem;
+}
+
+#img-logo2{
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  top: 8rem;
+  left: 1rem;
+  z-index: 1000;
+}
+
+
+.div-topo{
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.input-pesquisar input{
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: .2rem 0rem 0rem .2rem;
+}
+
+.button-send{
+  height: 2.5rem;
+  background-color: #38B6F9;
+  border-radius: 0rem .2rem .2rem 0rem;
+  padding: .5rem;
+}
+
+.div-user{
+  display: flex;
+  gap: 1rem;
+}
+
+.div-user li a {
+  color: rgb(167, 167, 167);
+  text-decoration: none;
+}
+
+.div-user li a:hover {
+  color: #38B6F9;
+}
+
+.ul-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 2rem;
+}
+
+.ul-nav li a{
+  text-decoration: none;
+  color: rgb(167, 167, 167);
+  font-weight: 500;
+}
+
+.ul-nav li a:hover{
+  color: #38B6F9;
+}
+
+
+      </style>
+  
+   </header>
+<script>
+   //////// header
+
+ document.addEventListener('click',function(e){
+  // Hamburger menu
+  if(e.target.classList.contains('hamburger-toggle')){
+    e.target.children[0].classList.toggle('active');
+  }
+})   
+</script>
+   <!-- Bootstrap 5 JS -->
+ <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'></script>
+</body>
+</html>
