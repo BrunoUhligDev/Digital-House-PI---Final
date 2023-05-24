@@ -10,11 +10,8 @@ const MainController = {
     index: async(req, res) => {
         try {
             const products = await Product.findAll()
+            res.status(200).json(products)
             
-            res.render('index', {
-                products,
-                toThousand
-            });
         } catch (error) {
             res.status(400).json({error})
         }

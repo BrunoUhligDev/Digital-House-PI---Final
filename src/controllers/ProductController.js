@@ -32,16 +32,15 @@ const ProductController = {
 
 	},
    
-   createFormEJS: (req, res) => {
-    res.render('product-create-form')
-  },
+   
   // Create product
   createEJS: async(req, res) => {
     let image = ''
+    let productType = Number(req.body.type)
 
     const errors = validationResult(req)
     if (!errors.isEmpty())
-        res.render('product-create-form', { errors: errors.mapped() }) 
+      res.status(400).json({ error: errors.mapped() })
 
     try {
       if (req.files[0] !== undefined) {
@@ -52,24 +51,13 @@ const ProductController = {
       
       let newProduct = {
         ...req.body,
-        image: image
+        image: image,
+        id_product_type: productType
       }
 
       await Product.create(newProduct) 
 
-      res.redirect('/')
-    } catch (error) {
-      res.status(400).json({ error })
-    }
-  },
-  // Update form product - View
-  updateFormEJS: async (req, res) => {
-    const id = req.params.id
-
-    try {
-      const productToEdit = await Product.findByPk(id)
-
-      res.render('product-edit-form', { productToEdit })
+      res.status(201).json({ msg: 'Produto criado com sucesso!' })
     } catch (error) {
       res.status(400).json({ error })
     }

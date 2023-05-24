@@ -19,10 +19,8 @@ const upload = require('../middlewares/upload')
 /*router.get('/show/:id', UserController.show); */
 
 
-//* Rota para mostrar formulário de cadastro de usuário
-router.get('/create', UserController.viewCriarUsuario)
 
-router.get('/login', UserController.viewLogin)
+
 
 //* Rota para mostrar formulário de edição de usuário
 /*router.get('/edit/:id', UserController.editForm); */

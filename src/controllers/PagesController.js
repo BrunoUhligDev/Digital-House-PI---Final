@@ -16,16 +16,7 @@ const PagesController = {
             res.status(400).json({error})
         }
 
-      },
-    sobre: (req, res) => {
-        res.render('sobre', {});
-    }, 
-    cadastro: (req, res) => {
-        res.render('cadastro', {});
-    },
-    login: (req,res) => {
-        res.render('login', {})
-    }
+      }
 
 };
 
