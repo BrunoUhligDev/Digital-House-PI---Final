@@ -32,7 +32,6 @@ const UserController = {
           let newUser = {
             ...req.body
           }
-          // delete newUser.pwdConfirm // remove propriedade pwdConfirm - porque não é necessário gravar no banco
 
           const hash = bcrypt.hashSync(newUser.pwd, 10) // gera o hash da senha
           newUser.pwd = hash // salva na propriedade senha
@@ -57,7 +56,6 @@ const UserController = {
         if (user && bcrypt.compareSync(req.body.pwd, user.pwd)) {
 
           const token = jwt.sign({ id: user.id, email: user.email }, 'segredo') 
-
           res.status(200).json({ token })
           
         } else res.status(400).json({ error: "Usuário ou Senha incorretos!" })
