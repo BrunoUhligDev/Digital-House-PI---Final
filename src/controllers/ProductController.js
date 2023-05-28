@@ -37,13 +37,15 @@ const ProductController = {
   createEJS: async(req, res) => {
     let image = ''
     let productType = Number(req.body.type)
+    
 
     const errors = validationResult(req)
     if (!errors.isEmpty())
       res.status(400).json({ error: errors.mapped() })
 
     try {
-      if (req.files[0] !== undefined) {
+      
+      if (req.files && req.files[0]) {
         image = req.files[0].filename
       } else {
         image = 'default-image.png'
@@ -52,7 +54,7 @@ const ProductController = {
       let newProduct = {
         ...req.body,
         image: image,
-        id_product_type: productType
+       id_product_type: productType
       }
 
       await Product.create(newProduct) 
