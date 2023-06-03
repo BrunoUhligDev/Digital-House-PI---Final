@@ -93,7 +93,7 @@ const ProductController = {
             }
           ) // atualiza o registro no banco de dados
 
-          res.redirect('/estoque')
+          // res.redirect('/estoque') : NAO UTILIZADO MAIS
       } else return res.status(400).json({ error: 'Produto não encontrado.' })
 
     } catch (error) {
@@ -111,7 +111,7 @@ const ProductController = {
         }
       }) // remove o registro do banco de dados
 
-      res.redirect('/estoque')
+      // res.redirect('/estoque') : NÃO UTILIZADO MAIS
     } catch (error) {
       res.status(400).json({ error })
     }
