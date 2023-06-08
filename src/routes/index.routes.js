@@ -12,7 +12,8 @@ const productController = require('../controllers/ProductController');
 
 /**
  * Multer
- */
+ * Middlewares
+ */ 
 
 
 const upload = require('../middlewares/upload')

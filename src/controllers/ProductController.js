@@ -113,6 +113,7 @@ const ProductController = {
       }) // remove o registro do banco de dados
 
       // res.redirect('/estoque') : NÃO UTILIZADO MAIS
+      res.status(200).json({ msg: 'Produto excluído!' })
     } catch (error) {
       res.status(400).json({ error })
     }
