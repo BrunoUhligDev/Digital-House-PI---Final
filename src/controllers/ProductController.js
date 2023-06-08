@@ -94,6 +94,7 @@ const ProductController = {
           ) // atualiza o registro no banco de dados
 
           // res.redirect('/estoque') : NAO UTILIZADO MAIS
+          res.status(200).json({ msg: 'Produto alterado com sucesso!'})
       } else return res.status(400).json({ error: 'Produto não encontrado.' })
 
     } catch (error) {
