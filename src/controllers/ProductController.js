@@ -22,12 +22,9 @@ const ProductController = {
         }
       })
 
-      res.render('detail', {
-        product,
-        toThousand
-      })
+      res.status(200).json(product)
     } catch (error) {
-      res.send('error')
+      res.status(400).json({ error })
     }
 
 	},
