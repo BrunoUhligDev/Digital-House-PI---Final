@@ -2,6 +2,7 @@ const log = require('./src/middlewares/log')
 const cookieParser = require('cookie-parser')
 const express = require('express');
 const methodOverride = require('method-override');
+const cors = require('cors')
 
 const routes = require('./src/routes/index.routes');
 const initialRoutes = require('./src/routes/initial.routes');
@@ -29,6 +30,8 @@ app.use(express.static(path.resolve("public")))
 app.use(log)
 // permitir o uso de req.body
 app.use(express.urlencoded({extended: false}));
+// Para funcionar o CORS
+app.use(cors())
 
 /* Middleware log acessar as rotas do usuario e registrando no arquivo log.txt */
 
