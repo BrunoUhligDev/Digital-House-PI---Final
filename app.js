@@ -5,7 +5,6 @@ const methodOverride = require('method-override');
 const cors = require('cors')
 
 const routes = require('./src/routes/index.routes');
-const initialRoutes = require('./src/routes/initial.routes');
 const usersRoutes = require('./src/routes/users.routes');
 const path = require("path")
 
@@ -39,7 +38,6 @@ app.use(cors())
  * Rotas
  */
 app.use(routes)
-app.use('/', initialRoutes);
 app.use('/users', usersRoutes);
 
 

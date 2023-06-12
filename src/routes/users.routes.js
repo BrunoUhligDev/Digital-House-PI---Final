@@ -27,7 +27,7 @@ const upload = require('../middlewares/upload')
 
 
 //* Rota para criar um usuário
-router.post('/', UserController.criarUsuario)
+router.post('/criarUser', UserController.criarUsuario)
 
 router.post('/login', UserController.login)
 

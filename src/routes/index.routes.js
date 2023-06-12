@@ -31,7 +31,7 @@ router.get('/product', MainController.index);
 router.get('/product/detail/:id', productController.detailEJS)
 router.get('/productPage/:type', PagesController.productPage);
 // POST - EJS Create
-router.post(
+router.post(  
   '/product', 
   auth,
   upload.any(), 
@@ -45,8 +45,5 @@ router.put('/product/:id',auth, upload.any(), productController.updateEJS)
 // DELETE - EJS Delete
 router.delete('/product/:id',auth, productController.deleteEJS)
 
-
-// Rota para exibir a lista de produtos na página de estoque em EJS
-router.get('/estoque', auth, productController.showAllEJS);
 
 module.exports = router;
