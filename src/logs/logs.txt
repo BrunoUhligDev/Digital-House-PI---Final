@@ -2879,3 +2879,15 @@ O usuário acessou a rota: /product/1
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product/1
 O usuário acessou a rota: /product/1
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product/1
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product/8
+O usuário acessou a rota: /product

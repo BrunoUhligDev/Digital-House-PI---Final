@@ -64,22 +64,19 @@ const ProductController = {
   updateEJS: async (req, res) => {
     const { id } = req.params
     let image = ''
-    
     try {
       const productToEdit = await Product.findByPk(id)
-    
       if (productToEdit != undefined) {
-          if (req.files[0] !== undefined) {
+
+          if (req.files && req.files[0]) {
               image = req.files[0].filename
           } else {
               image = productToEdit.image
           }
-
           let product = {
             ...req.body,
             image: image
           }
-
           await Product.update(
             product,
             {
