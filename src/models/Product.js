@@ -10,7 +10,19 @@ module.exports = (sequelize, DataType) => {
     discount: DataType.INTEGER,
     description: DataType.STRING(1000),
     image: DataType.STRING(100),
-    id_product_type: DataType.INTEGER
+    id_product_type: DataType.INTEGER,
+    cor_01: DataType.STRING(100),
+    cor_02: DataType.STRING(100),
+    cor_03: DataType.STRING(100),
+    cor_04: DataType.STRING(100),
+    cor_05: DataType.STRING(100),
+    cor_06: DataType.STRING(100),
+    arm_01: DataType.INTEGER,
+    arm_02: DataType.INTEGER,
+    arm_03: DataType.INTEGER,
+    arm_04: DataType.INTEGER,
+    arm_05: DataType.INTEGER,
+    arm_06: DataType.INTEGER
   }, {
     tableName: 'product',
     timestamps: false
