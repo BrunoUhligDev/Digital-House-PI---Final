@@ -69,7 +69,7 @@ router.delete('/product/:id',auth, productController.deleteEJS)
 
 
 //* Rota para criar um usuário
-router.post('/criarUser', UserController.criarUsuario)
+router.post('/create', UserController.criarUsuario)
 
 router.post('/login', UserController.login)
 
