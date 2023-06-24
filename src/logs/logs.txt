@@ -7208,6 +7208,7 @@ O usuário acessou a rota: /product
 O usuário acessou a rota: /images/produtos/default-image.png
 O usuário acessou a rota: /images/produtos/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /images/produtos/default-image.png
@@ -8141,11 +8142,17 @@ O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+=======
+O usuário acessou a rota: /
+O usuário acessou a rota: /favicon.ico
+O usuário acessou a rota: /
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product/2
@@ -8153,29 +8160,38 @@ O usuário acessou a rota: /product/2
 O usuário acessou a rota: /product/2
 O usuário acessou a rota: /product/2
 O usuário acessou a rota: /product/2
+=======
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product/2
 O usuário acessou a rota: /product/2
+=======
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product/4
 O usuário acessou a rota: /product/4
+=======
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /product/4
@@ -8196,12 +8212,15 @@ O usuário acessou a rota: /product/4
 O usuário acessou a rota: /product/4
 O usuário acessou a rota: /product/4
 O usuário acessou a rota: /product/4
+=======
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product/4
@@ -8217,6 +8236,11 @@ O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
+=======
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
@@ -8224,6 +8248,7 @@ O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product/2
@@ -8356,6 +8381,8 @@ O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+=======
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
@@ -8379,6 +8406,29 @@ O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /login
 O usuário acessou a rota: /login
+<<<<<<< HEAD
+=======
+O usuário acessou a rota: /login
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product?keywords=Snider
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
@@ -8389,6 +8439,7 @@ O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /login
 O usuário acessou a rota: /login
+<<<<<<< HEAD
 O usuário acessou a rota: /login
 O usuário acessou a rota: /login
 O usuário acessou a rota: /login
@@ -8400,10 +8451,13 @@ O usuário acessou a rota: /images/products/$%7BcarroselNumber2Img1%7D
 O usuário acessou a rota: /favicon.ico
 O usuário acessou a rota: /images/products//static/media/banner02-ip-01.83d2891ed9d4d25bdebb.png
 O usuário acessou a rota: /images/products//static/media/banner02-ip-01.83d2891ed9d4d25bdebb.png
+=======
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products//static/media/banner02-ip-01.83d2891ed9d4d25bdebb.png
 O usuário acessou a rota: /favicon.ico
 O usuário acessou a rota: /product
@@ -8442,10 +8496,19 @@ O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
+=======
+O usuário acessou a rota: /images/products/1685245949143-iphone
+O usuário acessou a rota: /product/11
+O usuário acessou a rota: /product/11
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /images/products/1685245949143-iphone
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product/5
 O usuário acessou a rota: /product/5
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
@@ -8565,6 +8628,9 @@ O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /images/products//static/media/banner02-ip-01.83d2891ed9d4d25bdebb.png
+=======
+O usuário acessou a rota: /images/products/1685245949143-iphone
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
@@ -8573,6 +8639,7 @@ O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products/1683600785839-iphonerobin.png
 O usuário acessou a rota: /images/products/1686181020683-prog-4.jpg
 O usuário acessou a rota: /images/products/1687478843158-WhatsApp%20Image%202023-06-11%20at%2019.57.10%20(5).jpeg
@@ -8583,10 +8650,42 @@ O usuário acessou a rota: /images/products//static/media/banner02-ip-01.83d2891
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /images/products//static/media/banner02-ip-01.83d2891ed9d4d25bdebb.png
+=======
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /images/products/1685245949143-iphone
+O usuário acessou a rota: /images/products/1687216795877-iphone
+O usuário acessou a rota: /product/11
+O usuário acessou a rota: /product/11
+O usuário acessou a rota: /product
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
 O usuário acessou a rota: /login
 O usuário acessou a rota: /login
+<<<<<<< HEAD
 O usuário acessou a rota: /images/products//static/media/banner02-ip-01.83d2891ed9d4d25bdebb.png
+=======
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /images/products/1685245949143-iphone
+O usuário acessou a rota: /images/products/1687216795877-iphone
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+O usuário acessou a rota: /users/login
+O usuário acessou a rota: /product/13
+O usuário acessou a rota: /product/13
+O usuário acessou a rota: /product
+O usuário acessou a rota: /product
+>>>>>>> e91d1ad2d6319c164cb9de801bd0309b30f9beb3
 O usuário acessou a rota: /product
 O usuário acessou a rota: /product
