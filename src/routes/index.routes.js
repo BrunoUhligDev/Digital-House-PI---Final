@@ -7,6 +7,7 @@ const router = express.Router();
 const MainController = require('../controllers/MainController');
 const PagesController = require('../controllers/PagesController');
 const productController = require('../controllers/ProductController');
+const UserController = require('../controllers/UserController');
 
 
 
@@ -28,7 +29,7 @@ const auth = require('../middlewares/auth')
 router.get('/product', MainController.index);
 
 // GET - EJS Detail producto - View
-router.get('/product/detail/:id', productController.detailEJS)
+router.get('/product/:id', productController.detailEJS)
 router.get('/productPage/:type', PagesController.productPage);
 // POST - EJS Create
 router.post(  
@@ -44,6 +45,44 @@ router.post(
 router.put('/product/:id',auth, upload.any(), productController.updateEJS)
 // DELETE - EJS Delete
 router.delete('/product/:id',auth, productController.deleteEJS)
+
+
+
+
+
+
+//* Rota para listar todos os usuários
+
+/*router.get('/', UserController.index); */
+
+
+// Rota para mostrar um usuário
+ 
+/*router.get('/show/:id', UserController.show); */
+
+
+
+
+
+//* Rota para mostrar formulário de edição de usuário
+/*router.get('/edit/:id', UserController.editForm); */
+
+
+//* Rota para criar um usuário
+router.post('/criarUser', UserController.criarUsuario)
+
+router.post('/login', UserController.login)
+
+
+//* Rota para atualizar um usuário
+/*router.put('/:id', upload.single('avatar'), UserController.update);*/
+
+
+//* Rota para deletar um usuário
+
+/*router.delete('/:id', UserController.delete);*/
+
+
 
 
 module.exports = router;

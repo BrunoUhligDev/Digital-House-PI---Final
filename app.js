@@ -38,7 +38,6 @@ app.use(cors())
  * Rotas
  */
 app.use(routes)
-app.use('/users', usersRoutes);
 
 
 app.listen(3000, () => {

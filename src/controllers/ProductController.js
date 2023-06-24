@@ -34,7 +34,7 @@ const ProductController = {
     let image = ''
     let productType = Number(req.body.type)
     
-
+    console.log('backend ok')
     const errors = validationResult(req)
     if (!errors.isEmpty())
       res.status(400).json({ error: errors.mapped() })
