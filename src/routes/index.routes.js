@@ -73,6 +73,8 @@ router.post('/create', UserController.criarUsuario)
 
 router.post('/login', UserController.login)
 
+router.get('/user', UserController.userById)
+
 
 //* Rota para atualizar um usuário
 /*router.put('/:id', upload.single('avatar'), UserController.update);*/

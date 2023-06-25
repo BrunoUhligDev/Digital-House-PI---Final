@@ -62,6 +62,30 @@ const UserController = {
       } catch (error) {
         res.status(400).json({ error })
       }
+    },
+
+    userById: async(req, res) =>{
+      const token = req.headers.authorization
+      const userByToken = jwt.decode(token)
+
+      try {
+        const user = await User.findOne({
+        where: {
+          email: userByToken.email
+        }
+      })
+
+      if(user){
+        res.status(200).json(user)
+      }
+
+      } catch (error) {
+        
+      } 
+    },
+
+    test: (req, res) => {
+      res.status(200).json('ta ok')
     }
 }
 
