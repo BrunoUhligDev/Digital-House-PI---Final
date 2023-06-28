@@ -75,6 +75,8 @@ router.post('/login', UserController.login)
 
 router.get('/user', UserController.userById)
 
+router.delete('/perfil/:id', UserController.userDelete)
+
 
 //* Rota para atualizar um usuário
 /*router.put('/:id', upload.single('avatar'), UserController.update);*/

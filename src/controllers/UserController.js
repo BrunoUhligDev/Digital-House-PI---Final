@@ -86,6 +86,22 @@ const UserController = {
 
     test: (req, res) => {
       res.status(200).json('ta ok')
+    },
+    userDelete: async(req, res) => {
+      const { id } = req.params
+  
+      try {
+        await User.destroy({
+          where: {
+            id: id
+          }
+        }) // remove o registro do banco de dados
+  
+        
+        res.status(200).json({ msg: 'Usuário excluído!' })
+      } catch (error) {
+        res.status(400).json({ error })
+      }
     }
 }
 
